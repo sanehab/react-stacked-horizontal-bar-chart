@@ -1,0 +1,9 @@
+node_modules
+StackedHorizontalBarChart
+.babelrc
+.prettierrc
+.watchmanconfig
+package-lock.json
+postcss.config.js
+webpack.config.js
+

@@ -1,0 +1,75 @@
+{
+  "name": "react-stacked-horizontal-bar-chart",
+  "version": "1.0.1",
+  "description": "A react component for rendering stacked horizontal bar chart with multiple bars, where markers can be added to mark results or points.",
+  "main": "./dist/index.js",
+  "devDependencies": {
+    "@babel/core": "^7.4.5",
+    "@babel/plugin-proposal-class-properties": "^7.4.4",
+    "@babel/plugin-proposal-nullish-coalescing-operator": "^7.10.4",
+    "@babel/plugin-proposal-optional-chaining": "^7.11.0",
+    "@babel/plugin-proposal-throw-expressions": "^7.2.0",
+    "@babel/plugin-syntax-dynamic-import": "^7.2.0",
+    "@babel/plugin-transform-runtime": "^7.8.3",
+    "@babel/preset-env": "^7.4.3",
+    "@babel/preset-react": "^7.0.0",
+    "autoprefixer": "^9.8.6",
+    "babel-eslint": "^10.1.0",
+    "babel-loader": "^8.1.0",
+    "css-loader": "^4.2.2",
+    "eslint": "^7.8.1",
+    "eslint-config-airbnb": "^18.2.0",
+    "eslint-plugin-import": "^2.22.0",
+    "eslint-plugin-jsx-a11y": "^6.3.1",
+    "eslint-plugin-react": "^7.20.6",
+    "eslint-plugin-react-hooks": "^4.1.0",
+    "node-sass": "^4.14.1",
+    "postcss-loader": "^3.0.0",
+    "sass-loader": "^10.0.2",
+    "style-loader": "^1.2.1",
+    "webpack": "^4.41.5",
+    "webpack-cli": "^3.3.12"
+  },
+  "peerDependencies": {
+    "prop-types": "^15.5.0",
+    "react": "^16.8.0",
+    "react-dom": "^16.8.0"
+  },
+  "dependencies": {
+    "classnames": "^2.2.6"
+  },
+  "scripts": {
+    "build:prod": "webpack --mode production --config webpack.config.js",
+    "build:dev": "webpack --mode development --config webpack.config.js",
+    "build:dev:watch": "webpack --watch --mode development --config webpack.config.js",
+    "eslint:test": "eslint StackedHorizontalBarChart --ext .js,.jsx",
+    "prepublish": "npm run build:prod"
+  },
+  "bugs": {
+    "url": "https://github.com/sanehab/react-stacked-horizontal-bar-chart/issues"
+  },
+  "author": {
+    "name": "Ehab Alsharif"
+  },
+  "homepage": "https://github.com/sanehab/react-stacked-horizontal-bar-chart",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sanehab/react-stacked-horizontal-bar-chart.git"
+  },
+  "keywords": [
+    "react",
+    "stacked",
+    "horizontal",
+    "bar",
+    "chart",
+    "graph",
+    "ranges",
+    "range",
+    "markers",
+    "points",
+    "bars",
+    "graphs",
+    "charts"
+  ],
+  "license": "MIT"
+}
